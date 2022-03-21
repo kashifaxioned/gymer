@@ -687,3 +687,40 @@ text-align: center;
 
 /*media query for 2560px to 2000px ends here*/
 
+/*media query for 1440px starts here*/
+
+@media only screen and (max-width: 1440px) {
+  
+  .top-nav { flex-basis: 55%; }
+
+  .nav-items li { flex-basis: 18%; }
+
+  .banner-title { width: 50%; }
+
+  .communicate .wrapper { padding: 44px 0; }
+
+  .communicate-btn { bottom: 0; }
+
+  .day-list { width: 100%; }
+
+  .font-icon::before { font-size: 40px; }
+
+  .count { font-size: 37px; }
+
+  .cards { padding: 50px 40px; }
+}
+
+/*media query for 1440px ends here*/
+
+/*media query for 1280px starts here*/
+
+@media only screen and (max-width: 1280px) {
+
+  .wrapper { width: 70%; }
+
+  .communicate-btn { bottom: 8%; }
+}
+
+/*media query for 1280px ends here*/
+
+
