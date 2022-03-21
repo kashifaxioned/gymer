@@ -320,5 +320,39 @@ li {
   color: #53d494;
 }
 
-/* communicates-ection ends here */
+/* communicate-section ends here */
+
+/* gym-classes starts here */
+
+  .gym-classes { padding: 116px 0; }
+
+  .section-text { width: 47.5%; }
+
+  .gym-slider {
+    margin-top: 70px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .slide-img { order: calc(inherit + 4); }
+
+  .gym-slider li img { width: 475px; }
+
+  .radio-section {
+    margin: 46px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .radio-btn {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .active-slide { background-color: #53d494; }
+
+  .radio-btn:not(:last-child) { margin-right: 10px; }
+
+/* gym-classes ends here */
 
