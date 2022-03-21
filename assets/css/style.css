@@ -219,3 +219,54 @@ li {
 /* banner section styling ends here */
 
 
+/* gym-data styling starts here */
+
+.gym-data {
+  padding: 84px 0;
+  color: #fff;
+}
+
+.gym-data-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gym-data-list li {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.count { 
+  display: inline-block;
+  font-size: 45px; 
+  font-weight: 500;
+}
+
+.gym-data-name {
+  display: block;
+  color: #474e46;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.font-icon::before {
+  margin-right: 28px;
+  color: #53d494;
+  font-family: "FontAwesome";
+  font-size: 51px;
+  font-weight: 100;
+}
+
+.members::before { content: "\f70c"; }
+
+.visitors::before { content: "\f84a"; }
+
+.health-program::before { content:  "\e3b2"; }
+
+.heart-beat::before { content:  "\f21e"; }
+
+/* gym-data styling ends here */
+
+
