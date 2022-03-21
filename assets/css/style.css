@@ -184,3 +184,38 @@ li {
   Header styling ends here
 =================================*/  
 
+/*=================================
+  main styling starts here
+=================================*/
+
+/* banner section styling starts here */
+
+  .banner {
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../image/bg.jpg") no-repeat fixed center;
+    background-size: cover;
+  }
+
+  .banner .wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-title { 
+    width: 35%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+/* banner section styling ends here */
+
+
