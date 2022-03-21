@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>Gymer</title>
   <!-- View-port Basics: http://mzl.la/VYREaP -->
   <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
@@ -14,7 +14,10 @@
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
   <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <!-- google font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
   <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
@@ -24,23 +27,21 @@
   <div class="container">
     <!--header section start-->
     <header class="header-section">
-      <div class="wrapper">
-        <h1 class="logo"><a href="#FIXME" title="Gymer" target="_self"></a> gymer</h1>
-        <div class="menu">
-          <nav class="top-nav">
-            <ul class="nav-items">
-              <li><a class="active" href="#FIXME" title="Home" target="_self">home</a></li>
-              <li><a href="#FIXME" title="Classes" target="_self">classes</a></li>
-              <li><a href="#FIXME" title="Schedule" target="_self">schedule</a></li>
-              <li><a href="#FIXME" title="Trainer" target="_self">trainer</a></li>
-              <li><a href="#FIXME" title="Services" target="_self">services</a></li>
-            </ul>
-          </nav>
-          <a class="contact-btn btn" href="#FIXME" title="contact" target="_self">contact</a>
-        </div>
-        <div class="hamburger">
-          <button class="open"></button>
-        </div>
+      <h1 class="logo"><a href="#FIXME" title="Gymer" target="_self"></a>gymer</h1>
+      <div class="menu">
+        <nav class="top-nav">
+          <ul class="nav-items">
+            <li><a class="active" href="#FIXME" title="Home" target="_self">home</a></li>
+            <li><a href="#FIXME" title="Classes" target="_self">classes</a></li>
+            <li><a href="#FIXME" title="Schedule" target="_self">schedule</a></li>
+            <li><a href="#FIXME" title="Trainer" target="_self">trainer</a></li>
+            <li><a href="#FIXME" title="Services" target="_self">services</a></li>
+          </ul>
+        </nav>
+        <a class="contact-btn btn" href="#FIXME" title="contact" target="_self">contact</a>
+      </div>
+      <div class="hamburger-div">
+        <button class="open hamburger"></button>
       </div>
     </header>
     <!--header section end-->
@@ -49,18 +50,26 @@
       <!--banner section start-->
       <div class="banner">
         <div class="wrapper">
-          <p class="title">welcome to gymer</p>
+          <p class="banner-title">welcome to gymer</p>
         </div>
       </div>
       <!--banner section end-->
       <!--gymdata section start-->
       <div class="gym-data">
         <div class="wrapper">
-          <ul>
-            <li>2260<span>members</span></li>
-            <li>210<span>daily visitors</span></li>
-            <li>887<span>health program</span></li>
-            <li>1920<span>heart beat</span></li>
+          <ul class="gym-data-list">
+            <li class="members font-icon">
+              <p class="count">2,260 <span class="gym-data-name">members</span></p>
+            </li>
+            <li class="visitors font-icon">
+              <p class="count">210 <span class="gym-data-name">daily visitors</span></p>
+            </li>
+            <li class="health-program font-icon">
+              <p class="count">887 <span class="gym-data-name">health program</span></p>
+            </li>
+            <li class="heart-beat font-icon">
+              <p class="count">1,920 <span class="gym-data-name">heart beart</span></p>
+            </li>
           </ul>
         </div>
       </div>
@@ -68,109 +77,117 @@
       <!-- communicate section start -->
       <section class="communicate">
         <div class="wrapper">
-          <div class="communicate-text">
+          <div class="communicate-text">  
             <h2 class="section-title">step up your fitness</h2>
             <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
               distinctio
               nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est
               recusandae dolore
               consequatur eaque. Quas corporis ut aut!</p>
-            <a class="btn" href="#contact" target="_self" title="Get In Touch">get in touch</a>
           </div>
           <figure class="communicate-img">
-            <img src="./assets/image/1.jpg" alt="Man Jumping On Box">
+            <img class="img-shadow" src="./assets/image/1.jpg" alt="Man Jumping On Box">
           </figure>
+          <a class="communicate-btn btn" href="#contact" target="_self" title="Get In Touch">get in touch</a>
         </div>
       </section>
       <!-- communicate section end -->
       <!-- gym-classes section start -->
       <section class="gym-classes">
         <div class="wrapper">
-          <h2 class="section-title">classes</h2>
-          <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
-            distinctio
-            nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
-            dolore
-            consequatur eaque. Quas corporis ut aut!</p>
+          <div class="section-text">
+            <h2 class="section-title">classes</h2>
+            <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
+              distinctio
+              nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
+              dolore
+              consequatur eaque. Quas corporis ut aut!</p>
+          </div>
         </div>
         <ul class="gym-slider">
-          <li>
+          <li class="slide-img">
             <figure>
-              <img src="./assets/image/gym-gallery/1.jpg" alt="Man Resting After Workout">
+              <img src="./assets/image/gym-gallery/1.jpg" alt="Girl in plank position">
             </figure>
           </li>
-          <li>
+          <li class="slide-img">
             <figure>
-              <img src="./assets/image/gym-gallery/2.jpg" alt="Man Holding Dumbell">
+              <img src="./assets/image/gym-gallery/2.jpg" alt="Man Holding Barbell">
             </figure>
           </li>
-          <li>
+          <li class="slide-img">
             <figure>
               <img src="./assets/image/gym-gallery/3.jpg" alt="Man Doing Alternating Wide Circles">
             </figure>
           </li>
-          <li>
+          <li class="slide-img">
             <figure>
               <img src="./assets/image/gym-gallery/4.jpg" alt="Woman Doing Excercise">
             </figure>
           </li>
-          <li>
+          <li class="slide-img">
             <figure>
               <img src="./assets/image/gym-gallery/5.jpg" alt="Woman Doing Jab">
             </figure>
           </li>
-          <li>
+          <li class="slide-img">
             <figure>
               <img src="./assets/image/gym-gallery/6.jpg" alt="Man Doing Triceps Workout">
             </figure>
           </li>
         </ul>
+        <div class="radio-section">
+          <button type="button" class="radio-btn active-slide"></button>
+          <button type="button" class="radio-btn"></button>
+        </div>
       </section>
       <!-- gym-classes section end -->
       <!-- schedule section start -->
       <section class="schedule">
         <div class="wrapper">
-          <h2 class="section-title">schedule</h2>
-          <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
-            distinctio
-            nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
-            dolore
-            consequatur eaque. Quas corporis ut aut!</p>
+          <div class="section-text">
+            <h2 class="section-title">schedule</h2>
+            <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
+              distinctio
+              nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
+              dolore
+              consequatur eaque. Quas corporis ut aut!</p>
+          </div>
           <div class="weekly-schedule">
-            <ul class="day">
-              <li><button class="selected">monday</button></li>
-              <li><button>tuesday</button></li>
-              <li><button>wednesday</button></li>
-              <li><button>thursday</button></li>
-              <li><button>friday</button></li>
-              <li><button>sunday</button></li>
+            <ul class="day-list">
+              <li><button class="selected day">monday</button></li>
+              <li><button class="day">tuesday</button></li>
+              <li><button class="day">wednesday</button></li>
+              <li><button class="day">thursday</button></li>
+              <li><button class="day">friday</button></li>
+              <li><button class="day">sunday</button></li>
             </ul>
             <ul class="time-table">
-              <li class="list-item">
+              <li class="time-table-item">
                 <p class="exercise-type">gym</p>
                 <p class="timing">8:00am - 10:00am</p>
                 <p class="trainer-name">john doe</p>
                 <a href="#FIXME" class="join-btn" target="_self" title="Join Now">join now</a>
               </li>
-              <li class="list-item">
+              <li class="time-table-item">
                 <p class="exercise-type">meditation</p>
                 <p class="timing">10:00am - 10:30am</p>
                 <p class="trainer-name">james holmes</p>
                 <a href="#FIXME" class="join-btn" target="_self" title="Join Now">join now</a>
               </li>
-              <li class="list-item">
+              <li class="time-table-item">
                 <p class="exercise-type">weight lifting</p>
                 <p class="timing">1:00pm - 2:30px</p>
                 <p class="trainer-name">ben smith</p>
                 <a href="#FIXME" class="join-btn" target="_self" title="Join Now">join now</a>
               </li>
-              <li class="list-item">
+              <li class="time-table-item">
                 <p class="exercise-type">crossfit</p>
                 <p class="timing">3:00am - 3:45am</p>
                 <p class="trainer-name">craig peters</p>
                 <a href="#FIXME" class="join-btn" target="_self" title="Join Now">join now</a>
               </li>
-              <li class="list-item">
+              <li class="time-table-item">
                 <p class="exercise-type">aerobics</p>
                 <p class="timing">5:00am - 5:30am</p>
                 <p class="trainer-name">paul green</p>
@@ -184,45 +201,59 @@
       <!-- trainers section start -->
       <section class="trainers-section">
         <div class="wrapper">
-          <h2 class="section-title">trainers</h2>
-          <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
-            distinctio
-            nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
-            dolore
-            consequatur eaque. Quas corporis ut aut!</p>
+          <div class="section-text">
+            <h2 class="section-title">trainers</h2>
+            <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
+              distinctio
+              nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
+              dolore
+              consequatur eaque. Quas corporis ut aut!</p>
+          </div>
           <ul class="trainers">
             <li class="trainer-list">
-              <figure>
-                <img src="./assets/image/trainers/james.jpg" alt="James Holmes">
-              </figure>
-              <h3 class="trianer-name">james holmes</h3>
-              <p class="trainer-speciality">aerobatics trainer</p>
-              <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                possimus
-                fugiat, natus odio ex illo exercitationem unde praesentium sit quos laudantium minus
-                similique!</p>
+              <div class="trainer-img">
+                <figure>
+                  <img class="img-shadow" src="./assets/image/trainers/james.jpg" alt="James Holmes">
+                </figure>
+              </div>
+              <div class="trainer-text">
+                <h3 class="trainer-name">james holmes</h3>
+                <h4 class="trainer-speciality">aerobatics trainer</h4>
+                <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                  possimus
+                  fugiat, natus odio ex illo exercitationem unde praesentium sit quos laudantium minus
+                  similique!</p>
+              </div>
             </li>
             <li class="trainer-list">
-              <figure>
-                <img src="./assets/image/trainers/kelly.jpg" alt="Kelly Green">
-              </figure>
-              <h3 class="trianer-name">kelly green</h3>
-              <p class="trainer-speciality">aerobatics trainer</p>
-              <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                possimus
-                fugiat, natus odio ex illo exercitationem unde praesentium sit quos laudantium minus
-                similique!</p>
+              <div class="trainer-img">
+                <figure>
+                  <img class="img-shadow" src="./assets/image/trainers/kelly.jpg" alt="Kelly Green">
+                </figure>
+              </div>
+              <div class="trainer-text">
+                <h3 class="trainer-name">kelly green</h3>
+                <h4 class="trainer-speciality">aerobatics trainer</h4>
+                <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                  possimus
+                  fugiat, natus odio ex illo exercitationem unde praesentium
+                  similique!</p>
+              </div>
             </li>
             <li class="trainer-list">
-              <figure>
-                <img src="./assets/image/trainers/ben.jpg" alt="Ben Smith">
-              </figure>
-              <h3 class="trianer-name">ben smith</h3>
-              <p class="trainer-speciality">aerobatics trainer</p>
-              <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                possimus
-                fugiat, natus odio ex illo exercitationem unde praesentium sit quos laudantium minus
-                similique!</p>
+              <div class="trainer-img">
+                <figure>
+                  <img class="img-shadow" src="./assets/image/trainers/ben.jpg" alt="Ben Smith">
+                </figure>
+              </div>
+              <div class="trainer-text">
+                <h3 class="trainer-name">ben smith</h3>
+                <h4 class="trainer-speciality">aerobatics trainer</h4>
+                <p class="trainer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                  possimus
+                  fugiat, natus odio ex illo exercitationem unde praesentium sit quos laudantium minus
+                  similique!</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -231,32 +262,38 @@
       <!-- service section start -->
       <section class="service-section">
         <div class="wrapper">
-          <h2 class="section-title">our featred services</h2>
-          <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
-            distinctio
-            nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
-            dolore
-            consequatur eaque. Quas corporis ut aut!</p>
+          <div class="section-text">
+            <h2 class="section-title">our featured services</h2>
+            <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facilis
+              distinctio
+              nobis? Esse, distinctio! Eligendi, dicta quam exercitationem praesentium tempora est recusandae
+              dolore
+              consequatur eaque. Quas corporis ut aut!</p>
+          </div>
           <ul class="card-section">
-            <li class="cards">
-              <h3 class="card-title crossfit">crossfit</h3>
+            <li class="cards crossfit font-icon">
+              <h3 class="card-title">crossfit</h3>
               <p class="card-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quia
                 fugit, minus
                 harum nobis similique.</p>
             </li>
-            <li class="cards">
-              <h3 class="card-title aerobics">aerobics</h3>
+            <li class="cards aerobics font-icon">
+              <h3 class="card-title">aerobics</h3>
               <p class="card-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quia
                 fugit, minus
                 harum nobis similique.</p>
             </li>
-            <li class="cards">
-              <h3 class="card-title gym">gym</h3>
+            <li class="cards gym font-icon">
+              <h3 class="card-title">gym</h3>
               <p class="card-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quia
                 fugit, minus
                 harum nobis similique.</p>
             </li>
           </ul>
+        </div>
+        <div class="radio-section">
+          <button type="button" class="radio-btn active-slide"></button>
+          <button type="button" class="radio-btn"></button>
         </div>
       </section>
       <!-- service section start -->
@@ -270,29 +307,30 @@
         <div class="wrapper">
           <h2 class="section-title">contact us</h2>
           <p class="section-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi velit
-            consectetur
-            adipisicing elit. Officia, recusandae.</p>
+            consect adipisicing elit. Officia, recusandae.</p>
           <form action="/" class="contact-form">
-            <div class="form-group">
-              <div class="form-group-inp">
-                <input type="text" name="fName" id="fName" value="" placeholder="First Name">
+              <div class="form-group form-group-name">
+                <input type="text" name="fName" value="" placeholder="First Name">
+                <span class="error">error</span>
               </div>
-              <div class="form-group-inp">
-                <input type="text" name="lName" id="lName" value="" placeholder="Last Name">
+              <div class="form-group form-group-name">
+                <input type="text" name="lName" value="" placeholder="Last Name">
+                <span class="error">error</span>
               </div>
-            </div>
             <div class="form-group">
-              <input type="text" name="subject" id="subject" value="" placeholder="Subject">
+              <input type="text" name="subject" value="" placeholder="Subject">
+              <span class="error">error</span>
             </div>
             <div class="form-group">
               <input type="email" name="email" value="" placeholder="Email">
+              <span class="error">error</span>
             </div>
             <div class="form-group">
-              <textarea name="message" id="message" cols="30" rows="10"
+              <textarea name="message" cols="30" rows="10"
                 placeholder="Write your message here."></textarea>
             </div>
             <div class="form-control">
-              <button type="submit">send message</button>
+              <button type="submit" class="btn submit-btn">send message</button>
             </div>
           </form>
         </div>
@@ -304,18 +342,16 @@
           <div class="about">
             <h3 class="footer-info-title">about gymer</h3>
             <p class="footer-info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
-              hic
-              voluptate ducimus dolor blanditiis ipsam mollitia enim suscipit voluptatem dignissimos
-              delectus modi quam
-              quas dolorum veritatis, harum non perferendis atque.</p>
+              hic voluptate ducimus dolor blanditiis ipsam mollitia enim suscipit voluptatem dignissimos
+              delectus modi quam</p>
           </div>
           <div class="links">
             <h3 class="footer-info-title">links</h3>
             <ul class="links-list">
               <li><a href="#FIXME" title="home" target="_self">home</a></li>
-              <li><a href="#FIXME" title="home" target="_self">meditation</a></li>
-              <li><a href="#FIXME" title="home" target="_self">gym</a></li>
-              <li><a href="#FIXME" title="home" target="_self">aerobatics</a></li>
+              <li><a href="#FIXME" title="meditation" target="_self">meditation</a></li>
+              <li><a href="#FIXME" title="gym" target="_self">gym</a></li>
+              <li><a href="#FIXME" title="aerobatics" target="_self">aerobatics</a></li>
             </ul>
           </div>
           <div class="subscribe">
@@ -327,7 +363,7 @@
                 <input type="email" name="email" value="" placeholder="Email">
               </div>
               <div class="form-control">
-                <button type="submit">subscribe</button>
+                <button type="submit" class="btn sub-btn">subscribe</button>
               </div>
             </form>
           </div>
