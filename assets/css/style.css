@@ -635,3 +635,19 @@ line-height: 1;
 
 /* footer info section ends here */
 
+/* copyright section starts here */
+
+.copyright { padding: 68px 0 143px; }
+
+.copyright-text {
+color: #474e46;
+font-size: 15px;
+text-align: center;
+}
+
+/* copyright section ends here */
+
+ /*=================================
+  footer styling ends here
+=================================*/ 
+
