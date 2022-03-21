@@ -855,3 +855,104 @@ text-align: center;
 /*media query for 768px ends here*/
 
 
+/*media query for 425px starts here*/
+
+@media only screen and (max-width: 425px) {
+
+  .wrapper { width: 90%; }
+
+  .banner-title {
+    width: 80%;
+    font-size: 50px;
+  }
+
+  .gym-data { padding: 35px 0; }
+
+  .gym-data-list { flex-wrap: wrap; }
+
+  .gym-data-list li { flex-basis: 40%; }
+
+  .font-icon::before { flex-basis: 30%; }
+
+  .section-title { 
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .section-text { width: 90%; }
+
+  .communicate { padding: 0; }
+
+  .communicate .wrapper { flex-direction: column; }
+
+  .communicate-img { margin: 30px 0; }
+
+  .communicate-btn {
+    margin: 0;
+    bottom: 0;
+  }
+
+  .gym-slider li img { width: 160px; }
+
+  .gym-classes { padding: 20px; }
+
+  .radio-section { margin: 22px auto; }
+
+  .weekly-schedule { 
+    margin: 10px 0;
+    flex-direction: row; 
+    align-items: baseline;
+  }
+
+  .time-table { 
+    border: none;
+    flex-basis: 100%;
+  }
+
+  .time-table p, .time-table a {
+    border: none;
+    padding: 10px;
+  }
+
+  .time-table-item {
+    border: 1px solid;
+    margin-bottom: 10px;
+    display: block;
+    flex-basis: 100%;
+  }
+
+  .day-list {
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .trainers-section { margin: 20px 0; }
+
+  .trainers {
+    margin-top: 35px;
+    flex-direction: column;
+  }
+
+  .trainer-list:not(:last-child) { margin: 0 0 40px; }
+
+  .trainer-speciality { margin: 17px 0; }
+
+  .service-section { margin-bottom: 50px; }
+
+  .service-section .radio-section { display: none; }
+
+  .card-section { flex-direction: column; }
+
+  .cards { padding: 50px; }
+
+  .contact-section { padding: 60px 0; }
+
+  .contact-section .wrapper { width: 90%; }
+
+  .submit-btn { padding: 20px 40px; }
+
+  .footer-info .wrapper { width: 80%; }
+}
+
+/*media query for 425px ends here*/
