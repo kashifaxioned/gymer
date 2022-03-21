@@ -356,3 +356,72 @@ li {
 
 /* gym-classes ends here */
 
+/* schedule section starts here */
+
+  .weekly-schedule {
+    margin: 58px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .day-list {
+    width: 56%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .day {
+    padding: 16px 18px;
+    background: none;
+    border: none;
+    color: #53d494;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+
+  .selected, .day:hover {
+    border-radius: 5px;
+    background-color: #53d494;
+    color: #fff;
+  }
+
+  .time-table {
+    margin-top: 47px;
+    border: 1px solid #c6cace;
+    display: flex;
+    flex-direction: column;
+    color: #c6cace;
+  }
+
+  .time-table-item {
+    flex-basis: 100%;
+    display: flex;
+  }
+
+  .time-table-item p, .time-table-item a { 
+    padding: 20px 0 21px 10px;
+    border-right: .3px solid #c6cace;
+    border-bottom: .3px solid #c6cace; 
+  }
+
+  .exercise-type { flex-basis: 24.2%; }
+
+  .timing { flex-basis: 32.7%; }
+
+  .weekly-schedule .trainer-name { flex-basis: 24.4%; }
+
+  .exercise-type, .trainer-name { text-transform: capitalize; }
+
+  .join-btn {
+    border-right: none;
+    flex-basis: 17%;
+    color: #53d494;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+/* schedule section ends here */
+
