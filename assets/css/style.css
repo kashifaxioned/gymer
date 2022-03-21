@@ -270,3 +270,55 @@ li {
 /* gym-data styling ends here */
 
 
+/* communicate-section starts here*/
+
+.communicate {
+  padding: 31px 0;
+  color: #fff;
+}
+
+.communicate .wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.communicate-text { flex-basis: 40%; }
+
+.communicate-img { flex-basis: 48%; }
+
+.section-title {
+  padding: 32px 0;
+  color: #53d494;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.section-info {
+  color: #474e46;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.communicate-btn {
+  padding: 23px 26px;
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  background-color: #53d494;
+  color: #000;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.communicate-btn:hover, .submit-btn:hover, .sub-btn:hover {
+  border: 1px solid #53d494;
+  background-color: inherit;
+  color: #53d494;
+}
+
+/* communicates-ection ends here */
+
