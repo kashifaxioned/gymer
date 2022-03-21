@@ -425,3 +425,36 @@ li {
 
 /* schedule section ends here */
 
+/* trainer section starts here */
+
+.trainers-section { margin: 164px 0; }
+
+.trainers {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainer-list {
+  flex-basis: 29%;
+  color: #474e46;
+}
+
+.trainer-list:nth-child(2n) { margin-top: 48px; }
+
+.trainer-text { margin-top: 50px; }
+
+.trainers-section .trainer-name {
+  color: #fff;
+  font-size: 27px;
+  line-height: 1;
+} 
+
+.trainer-speciality { 
+  margin: 17px 0 36px;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: capitalize;
+ }
+/* trainer section ends here */
+
