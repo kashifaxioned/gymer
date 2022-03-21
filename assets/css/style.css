@@ -724,3 +724,67 @@ text-align: center;
 /*media query for 1280px ends here*/
 
 
+/*media query for 1024px starts here*/
+
+@media only screen and (max-width: 1024px) {
+
+  .wrapper { width: 70%; }
+
+  .logo { flex-basis: 30%; }
+
+  .menu { flex-basis: 70%; }
+
+  .top-nav { flex-basis: 66%; }
+
+  .banner-title {
+    width: 60%;
+    font-size: 80px;
+  }
+
+  .font-icon::before {
+    margin-right: 15px;
+    font-size: 35px;
+  }
+
+  .count { font-size: 30px; }
+
+  .gym-data-name, .section-info { font-size: 12px; }
+
+  .communicate .section-title  { padding-top: 0; } 
+
+  .section-title { font-size: 35px; }
+
+  .communicate-btn {
+    margin-top: 33px;
+    padding: 17px 24px;
+    font-size: 10px;
+  }
+
+  .gym-slider li img { width: 240px; }
+
+  .day-list { width: 100%; }
+
+  .trainers-section .trainer-name { font-size: 20px; }
+
+  .trainer-speciality { font-size: 13px; }
+
+  .trainer-info { font-size: 12px; }
+
+  .service-section .font-icon::before { font-size: 33px; }
+
+  .card-title {
+    margin: 17px 0;
+    font-size: 21px;
+  }
+
+  .cards { padding: 28px; }
+
+  .card-info { font-size: 12px; }
+
+  .contact-section .wrapper { width: 50%; }
+
+  .footer-info-text { font-size: 12px; }
+}
+
+/*media query for 1024px ends here*/
+
