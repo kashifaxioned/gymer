@@ -788,3 +788,70 @@ text-align: center;
 
 /*media query for 1024px ends here*/
 
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+  .menu { display: none; }
+
+  .hamburger-div { 
+    margin-left: auto;
+    display: block;
+  }
+
+  .hamburger {
+    background: none;
+    border: none;
+  }
+
+  .hamburger::before {
+    color: #fff;
+    content: "\f0c9";
+    font-size: 30px;
+    font-family: "FontAwesome";
+  }
+
+  .banner { height: 750px; }
+
+  .banner-title { font-size: 70px; }
+
+  .font-icon::before { font-size: 25px; }
+
+  .count { font-size: 22px; }
+
+  .gym-data-name, .section-info { font-size: 10px; }
+
+  .section-title { font-size: 30px; }
+
+  .gym-classes { padding: 60px 0 40px; }
+
+  .day {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .time-table-item p, .time-table-item a {
+    padding: 17px 10px;
+    font-size: 10px;
+  }
+
+  .trainers-section { margin: 80px 0; }
+
+  .contact-section .wrapper { width: 70%; }
+
+  .footer-info { margin: 80px 0; }
+
+  .footer-info .wrapper {
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-info .wrapper > div {
+    margin: 10px 0;
+  }
+
+}  
+
+/*media query for 768px ends here*/
+
+
